@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="Estilos/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <header class="header">
+    <a href="#">
+      <img src="Img/RinconCafe_Logo_Simplificado.png">
+    </a>
+    
+    <nav>
+      <label id="burguer-menu1" for="burguer-menu2">
+        <ion-icon name="menu-outline" class="burguer-menu"></ion-icon>
+      </label>
+      <input type="checkbox" id="burguer-menu2">
+
+      <div class="nav__wrapper">
+        <a href="#" class="item-nav-main">Inicio</a>
+        <a href="#Menu_ID" class="item-nav-main">Menú</a>
+        <a href="#Contact_ID" class="item-nav-main">Contacto</a>
+      </div>
+
+    </nav>
+  </header>
+
+  <main>
+    <div class="business-presentation__wrapper">
+      <div>
+          <h1 class="presentation-title1">El rincón del café</h1>
+          <h2 class="presentation-title2">El mejor café de la ciudad</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat iste harum nemo.</p>
+        </div>
+      <img src="Img/Img-Presentation_Comprimida.jpg">
+
+    </div>
+  </main>
+
+  <section class="basic-information">
+
+    <h2>Información básica</h2>
+    <div class="basic-information__wrapped">
+
+      <!-- First Item -->
+      <div class="item-basic-information">
+        <div class="title-item-basic-info">
+          <ion-icon class="icon-basic-information" name="navigate-circle-outline"></ion-icon>
+          <h3 class="espaciado-margen">Dirección</h3>
+        </div>
+
+        <p class="espaciado-margen">Boulevard del Mar 789, Colonia Costa Azul, Acapulco, Guerrero CP.39349.</p>
+      </div>
+
+      <!-- Second item -->
+      <div class="item-basic-information">
+        <div class="title-item-basic-info">
+          <ion-icon class="icon-basic-information" name="time-outline"></ion-icon>
+          <h3 class="espaciado-margen">Horario</h3>
+        </div>
+
+        <ul class="espaciado-margen">
+          <li>Lunes a viernes: 9 AM a 8 PM</li>
+          <li>Sábados: 10 AM a 6 PM</li>
+          <li>Domingos: Cerrado</li>
+        </ul>
+      </div>
+
+      <!-- Third item -->
+      <div class="item-basic-information">
+        <div class="title-item-basic-info">
+          <ion-icon class="icon-basic-information" name="time-outline"></ion-icon>
+          <h3 class="espaciado-margen">Teléfono</h3>
+        </div>
+
+        <p class="espaciado-margen">Número telefonico:<br/>+52 8181 8181 81</p>
+      </div>
+
+      <!-- Fourth item -->
+      <div class="item-basic-information">
+        <div class="title-item-basic-info">
+          <ion-icon class="icon-basic-information" name="share-social-outline"></ion-icon>
+          <h3 class="espaciado-margen">Redes sociales</h3>
+        </div>
+        <a href="#"><ion-icon class="icons-social-media" name="logo-facebook"></ion-icon></a>
+          <a href="#"><ion-icon class="icons-social-media" name="logo-instagram"></ion-icon></a>
+          <a href="#"><ion-icon class="icons-social-media" name="logo-tiktok"></ion-icon></a>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="history">
+
+  <div class="history-wrapper">
+    <div class="text-history">
+
+      <h2>Nuestra Historia</h2>
+
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quo ut magnam est beatae eaque rerum, sequi.</p>
+
+    </div>
+    
+    <img src="Img/Img-History-.jpg">
+
+    </div> 
+  </section>
+
+  <section class="menu">
+
+    <h2 id="Menu_ID">Menú</h2>
+
+    <div class="menu__wrapper">
+
+      <div class="item-menu">
+        <img src="Img/Cafe-descafeinado.jpg">
+        <div class="item-menu__wrapper">
+          <h3>Café descafeinado</h3>
+          <strong>Precio: $25</strong>
+          <p>Disfruta del sabor intenso del café sin la cafeína. Perfecto para quienes buscan relajarse o disfrutar de una taza caliente a cualquier hora del día.?</p>
+        </div> 
+      </div>
+
+      <div class="item-menu">
+        <img src="Img/Batido de Lotus.jpg">
+        <div class="item-menu__wrapper">
+          <h3>Batido de Lotus</h3>
+          <span>Precio: $45</span>
+          <p>Una explosión de sabor oriental en cada sorbo. Este batido cremoso combina la suavidad de la leche con el dulce aroma del biscocho Lotus.</p>
+        </div> 
+      </div>
+
+      <div class="item-menu">
+        <img src="Img/Batido_Oreo.jpg">
+        <div class="item-menu__wrapper">
+          <h3>Batido de Oreo</h3>
+          <span>Precio: $40</span>
+          <p>El clásico sabor de Oreo llevado a un nuevo nivel. Un batido frío y delicioso, ideal para los amantes de los postres.</p>
+        </div> 
+      </div>
+
+      <div class="item-menu">
+        <img src="Img/Frappe_Capuchino.jpg">
+        <div class="item-menu__wrapper">
+          <h3>Frappe Capuchino</h3>
+          <span>Precio: $35</span>
+          <p>La combinación perfecta entre el café y el capuchino, ahora en una versión helada y espumosa. Ideal para refrescarte en los días más calurosos.</p>
+        </div> 
+      </div>
+
+      <div class="item-menu">
+        <img src="Img/Frappe_Papaya.jpg">
+        <div class="item-menu__wrapper">
+          <h3>Frappe de Papaya</h3>
+          <span>Precio: $32</span>
+          <p>Un batido tropical y refrescante, elaborado con papaya fresca y hielo picado. La opción perfecta para los amantes de las frutas exóticas.</p>
+        </div> 
+      </div>
+
+      <div class="item-menu">
+        <img src="Img/Waffle.jpg">
+        <div class="item-menu__wrapper">
+          <h3>Waffle</h3>
+          <span>Precio: $50</span>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dicta facere delectus a impedit maxime numquam tempora iusto pariatur nam quod sed fugiat voluptatum totam, debitis dolorem autem perferendis officiis?</p>
+        </div> 
+      </div>
+
+    </div>
+  </section>
+
+  <section class="contact">
+
+    <h2 id="Contact_ID">Contacto</h2>
+
+    <div class="contact__wrapper">
+
+      <form id="contact-form" method="post">
+
+        <!-- <label for="Nombre">Nombre:</label> -->
+        <input type="text" id="Nombre" name="Nombre" placeholder="Ingresa tu nombre aquí..." required>
+
+        <!-- <label for="Email">Correo electrónico:</label> -->
+        <input type="email" id="Email" name="Email" placeholder="Ingresa tu E-mail aquí..." required>
+
+        <!-- <label for="mensaje">Mensaje:</label> -->
+        <textarea id="mensaje" name="mensaje" rows="5" placeholder="Coloca tu mensaje aquí..." required></textarea>
+
+        <input type="submit" value="Enviar"> 
+
+      </form>
+
+    </div>
+
+  </section>
+
+
+<!-- Iconos de Ionic -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
